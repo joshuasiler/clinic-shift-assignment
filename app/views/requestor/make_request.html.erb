@@ -1,0 +1,36 @@
+<h1>Clinic Shift Request</h1>
+Request for: <%= ConfigValue.find_by_key('active_month').value %> <BR /><BR />
+<form action="/requestor/process_request" method="post">
+  <%= token_tag %>
+  Your email: <input type="textbox" name="email"> (please enter a valid email address so you assignments can be emailed to you)<BR />
+  Max Shifts Requested: <input type="textbox" name="maxshifts"><BR />
+  Status:<select name="type">
+	  <option>Medical Student</option>
+	  <option>MD</option>
+	  <option>Nurse</option>
+</select>
+  <BR /><BR />
+  <h2>Your Availability</h2>
+<table><TR>
+<% while @datectrl.month == @thismonth %>
+
+<td><%= Date::DAYNAMES[@datectrl.wday] + ", " + @datectrl.day.to_s %>
+<BR />
+<select name="shift<%= @datectrl.day.to_s%>" multiple>
+  <option value="" SELECTED>none</option>
+  <% SHIFTS.each do |shift| %>
+  <option><%= shift %></option>
+  <% end %>
+</select>
+</td>
+
+<% if @datectrl.wday == 6 %>
+  </TR><TR>
+<% end %>
+<% @datectrl = @datectrl + 1 %>
+<% end %>
+</td></tr></table>
+  
+  (warning, submitting this request more than once will overwrite previous requests with this new availability calendar.)
+  <input type="submit">
+    </form>

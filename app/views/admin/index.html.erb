@@ -1,0 +1,40 @@
+<% ConfigValue.find(:all).each do |confval| %>
+
+<%= confval.key %> <%= confval.value %><BR />
+ <% end %>
+<%= @reqs%> request forms submitted for current month.
+<BR /><BR />
+<form action="/admin/set_calendar">
+  This will process all <%= ConfigValue.find_by_key('active_month').value %> requests, generate calendar and set request form to next month. <input type="submit" value="generate">
+ </form>
+    
+ <h2><%= Date::MONTHNAMES[@datectrl.month] %> Calendar</h2>
+<table><TR>
+<% @datectrl.wday.times do  %>
+  <TD></TD>
+<% end %>
+<% while @datectrl.month == @thismonth %>
+
+<td><%= Date::DAYNAMES[@datectrl.wday] + ", " + @datectrl.day.to_s %>
+<BR />
+<% 
+SHIFTS.each do |shift|
+      shifts = Requestedshift.get_assigned(shift,@datectrl.day)
+      %> <BR /><%= shift %>: <%
+      unless shifts.empty?
+	    %> <%= shifts[0].request_id %> <%
+      else
+	  %> none <%
+	end
+	
+      end
+%>
+</td>
+
+<% if @datectrl.wday == 6 %>
+  </TR><TR><td>&nbsp;</td></tr><tr>
+<% end %>
+<% @datectrl = @datectrl + 1 %>
+<% end %>
+</td></tr></table>
+  
