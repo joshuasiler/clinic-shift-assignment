@@ -4,37 +4,22 @@
  <% end %>
 <%= @reqs%> request forms submitted for current month.
 <BR /><BR />
-<form action="/admin/set_calendar">
-  This will process all <%= ConfigValue.find_by_key('active_month').value %> requests, generate calendar and set request form to next month. <input type="submit" value="generate">
+<% if ConfigValue.find_by_key('req_open').value == "1" %>
+<form action="/admin/set_calendar" method="post">
+  <%= token_tag %>
+  Process all <%= @enrollment.start_date %> to <%= @enrollment.end_date %> requests, generate calendar and close enrollment: <input type="submit" value="generate">
  </form>
-    
- <h2><%= Date::MONTHNAMES[@datectrl.month] %> Calendar</h2>
-<table><TR>
-<% @datectrl.wday.times do  %>
-  <TD></TD>
+<% else %>
+<form action="/admin/reopen" method="post">
+  <%= token_tag %>
+  Reset <%= @enrollment.start_date %> to <%= @enrollment.end_date %> enrollment: <input type="submit" value="Reopen">
+  <BR />(danger, this may reset the calendar if you regenerate later)
+ </form><BR /><BR />
+<form action="/admin/open_req" method="post">
+  <%= token_tag %>
+  Start Date: <input type="textbox" name="start_date">(YYYY-MM-DD)<BR />
+  End Date: <input type="textbox" name="end_date">(YYYY-MM-DD)<BR />
+  This will open enrollment for the new period and close the old calendar: <input type="submit" value="Start Enrollment">
+ </form>
 <% end %>
-<% while @datectrl.month == @thismonth %>
-
-<td><%= Date::DAYNAMES[@datectrl.wday] + ", " + @datectrl.day.to_s %>
-<BR />
-<% 
-SHIFTS.each do |shift|
-      shifts = Requestedshift.get_assigned(shift,@datectrl.day)
-      %> <BR /><%= shift %>: <%
-      unless shifts.empty?
-	    %> <%= shifts[0].request_id %> <%
-      else
-	  %> none <%
-	end
-	
-      end
-%>
-</td>
-
-<% if @datectrl.wday == 6 %>
-  </TR><TR><td>&nbsp;</td></tr><tr>
-<% end %>
-<% @datectrl = @datectrl + 1 %>
-<% end %>
-</td></tr></table>
-  
+<%= render :partial => "calendar/assigned" %>

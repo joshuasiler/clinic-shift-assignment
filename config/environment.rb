@@ -74,4 +74,3 @@ Rails::Initializer.run do |config|
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 end
 
-SHIFTS = ["Morning (8 to noon)", "Swing (noon to 5)", "Night (5 to 8)"]

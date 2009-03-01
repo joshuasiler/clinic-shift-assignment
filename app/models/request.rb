@@ -1,6 +1,6 @@
 class Request < ActiveRecord::Base
-  def self.get_existing(email,curmonth)
-    Request.find_by_sql(["select * from requests where email = ? and target_month = ?",email,curmonth])[0]
+  def self.get_existing(email,curen)
+    Request.find_by_sql(["select * from requests where email = ? and enrollment_id = ?",email,curen])[0]
   end
   
   def self.get_priorities()

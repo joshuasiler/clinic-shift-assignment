@@ -1,36 +1,50 @@
 <h1>Clinic Shift Request</h1>
-Request for: <%= ConfigValue.find_by_key('active_month').value %> <BR /><BR />
+<% if ConfigValue.find_by_key('req_open').value == "1" %>
+
+<% if !flash[:message].nil? %><div class="error"><%= flash[:message] %></div><% end%>
+Request for: <%= @enrollment.start_date %> to <%= @enrollment.end_date %> <BR /><BR />
 <form action="/requestor/process_request" method="post">
   <%= token_tag %>
+  Your name: <input type="textbox" name="name"> <BR />
   Your email: <input type="textbox" name="email"> (please enter a valid email address so you assignments can be emailed to you)<BR />
-  Max Shifts Requested: <input type="textbox" name="maxshifts"><BR />
+  Max Days Requested: <input type="textbox" name="maxshifts" style="width:50px;"> (leave blank to assign as many as available) <BR />
   Status:<select name="type">
-	  <option>Medical Student</option>
 	  <option>MD</option>
-	  <option>Nurse</option>
+	  <option>MD/PHD</option>
+	  <option>MD/MPH</option>
 </select>
   <BR /><BR />
-  <h2>Your Availability</h2>
-<table><TR>
-<% while @datectrl.month == @thismonth %>
-
-<td><%= Date::DAYNAMES[@datectrl.wday] + ", " + @datectrl.day.to_s %>
-<BR />
-<select name="shift<%= @datectrl.day.to_s%>" multiple>
-  <option value="" SELECTED>none</option>
-  <% SHIFTS.each do |shift| %>
-  <option><%= shift %></option>
-  <% end %>
-</select>
-</td>
-
-<% if @datectrl.wday == 6 %>
-  </TR><TR>
+<% while @thismonth == @datectrl.month && @datectrl < @dateend %>
+  <h2>Your Availability - <%= Date::MONTHNAMES[@datectrl.month] %></h2>
+  <em>(click on the days that you are available)</em>
+  <% 7.times do |dayer| %>
+    <div class="day dayheader"><%= Date::DAYNAMES[dayer] %></div>
+  <% end
+  @datectrl.wday.times do  |dayer| %>
+  <div class="day blankday" <% if dayer == 0 %> style="clear:left;" <% end %>>&nbsp;</div>
 <% end %>
+<% while @datectrl.month == @thismonth && @datectrl < @dateend %>
+<input type="hidden" name="s<%= @datectrl.month%>-<%= @datectrl.day%>" id="s<%= @datectrl.month%>-<%= @datectrl.day%>" value="0">
+<% if !(@datectrl.wday ==2 || @datectrl.wday ==4) %>
+<div class="day" style="color: #BBB;<% if @datectrl.wday == 0 %>clear:left; <% end %>" id="<%= @datectrl.month%>-<%= @datectrl.day%>"><%= @datectrl.day.to_s %></div>
+<% else %>
+<div class="day"<% if @datectrl.wday == 0 %> style="clear:left;" <% end %> id="<%= @datectrl.month%>-<%= @datectrl.day%>" onclick="toggleBG(this);"><%= @datectrl.day.to_s %></div>
+<% end %>
+
 <% @datectrl = @datectrl + 1 %>
-<% end %>
-</td></tr></table>
-  
-  (warning, submitting this request more than once will overwrite previous requests with this new availability calendar.)
-  <input type="submit">
+<% end
+  @thismonth = @datectrl.month %>
+  <div style="clear:both;">&nbsp;</div>
+ <% end %>
+
+  <div style="clear:both;">
+  (warning, submitting this request with the same email address more than once will overwrite previous requests with this new availability calendar.)
+  <input type="submit" value="Submit Dates">
+    </div>
     </form>
+
+<% else %>
+<h2>Enrollment is currently closed.</h2>
+<% end %>
+
+Please contact <a href="mailto:<%= ConfigValue.find_by_key('admin_email').value %>"><%= ConfigValue.find_by_key('admin_email').value %></a> for more information.
