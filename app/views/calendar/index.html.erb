@@ -1,0 +1,9 @@
+<h1>SW Clinic Student Shift Calendar</h1>
+<% if ConfigValue.find_by_key('req_open').value == "0" %>
+Enrollment currently closed.
+<% else %>
+<a href="/requestor/make_request">Sign up for <%= @enrollment.start_date %> to <%= @enrollment.end_date %> enrollment period.</a>
+<% end %>
+
+<BR /><BR />
+<%= render :partial => "calendar/assigned" %>

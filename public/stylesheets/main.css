@@ -1,0 +1,53 @@
+body
+{
+    background-color: white;
+    font-family: verdana,arial;
+    font-size: 14px;
+    }
+
+.day
+{
+    border: solid 1px #000;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    float:left;
+}
+
+.dayheader
+{
+    border: solid 1px #EEE;
+    color: #888;
+}
+
+.blankday
+{
+    border: solid 1px #EEE;
+}
+
+.error
+{ color: #F00; }
+
+.dayview
+{
+    border: solid 1px #888;
+    padding: 4px;
+    width:500px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.dvheader
+{
+    background-color: #DDD;
+    border: solid 1px #EEE;
+    padding: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.main
+{
+    width:800px;
+    margin: auto;
+    }

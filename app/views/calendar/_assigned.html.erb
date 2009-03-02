@@ -1,0 +1,22 @@
+<% while @datectrl < @dateend %>
+<h2>Assignment Calendar - <%= Date::MONTHNAMES[@datectrl.month] %></h2>
+<% while @datectrl.month == @thismonth && @datectrl < @dateend  %>
+<div class="dayview">
+<div class="dvheader"><%= Date::DAYNAMES[@datectrl.wday] %>, <%= @datectrl.day.to_s %></div>
+<% assments = Requestedshift.get_assigned(@datectrl)
+  unless assments[0].nil?
+    assments.each do |assignment| %>
+  <% if assignment.assigned_flag == 2 %>
+  alt: <% end %>
+  <a href="mailto:<%= assignment.email %>"><%= assignment.name %></a> - <%= assignment.req_type %><BR />
+<% end
+else %>
+None
+<% end %>
+</div>
+<% @datectrl = @datectrl + 1 %>
+<% end
+    @thismonth = @datectrl.month
+%>
+<div style="clear:both;">&nbsp;</div>
+<% end %>
