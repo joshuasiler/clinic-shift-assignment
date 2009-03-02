@@ -2,7 +2,7 @@
 SQLyog Community Edition- MySQL GUI v8.01 
 MySQL - 5.0.51b-community-nt : Database - clinic-shift-assignment
 *********************************************************************
-*/
+*/ 
 
 /*!40101 SET NAMES utf8 */;
 
