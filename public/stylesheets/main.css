@@ -29,13 +29,28 @@ body
 .error
 { color: #F00; }
 
-.dayview
+.dayview2
 {
+    margin-top: 10px;
     border: solid 1px #888;
     padding: 4px;
-    width:500px;
+    width:350px;
     padding-bottom: 10px;
     font-size: 16px;
+    float: left;
+    clear: left;
+}
+
+.dayview4
+{
+    margin-top: 10px;
+    border: solid 1px #888;
+    padding: 4px;
+    width:350px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-left:5px;
+    float:left;
 }
 
 .dvheader
