@@ -30,11 +30,12 @@ class AdminController < ApplicationController
   
   def set_calendar
     # processes requests and sets calendar
-    reqs = Request.get_priorities()
     enrollment = Enrollment.get_latest()
+    reqs = Request.get_priorities(enrollment.id)
     datectrl = enrollment.start_date
     dateend = enrollment.end_date+1
     thismonth = datectrl.month
+    
     while datectrl < dateend
 	assigned = 0;
 	alts = 0;
@@ -48,15 +49,15 @@ class AdminController < ApplicationController
 	    unless shift[0].nil?
 	      req.shifts_desired -= 1
 	      if assigned < 2
-		shift[0].assigned_flag = 1
-		assigned += 1
+          shift[0].assigned_flag = 1
+          assigned += 1
 	      else
-		shift[0].assigned_flag = 2
-		alts += 1
+          shift[0].assigned_flag = 2
+          alts += 1
 	      end
 	      shift[0].save
 	      if assigned == 2 && alts == 2
-		break
+          break
 	      end
 	    end
 	  end

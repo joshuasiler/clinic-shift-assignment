@@ -1,0 +1,2166 @@
+
+
+Processing ApplicationController#index (for 71.237.177.116 at 2009-03-01 18:24:22) [GET]
+
+
+ActionController::RoutingError (No route matches "/calendar" with {:method=>:get}):
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/404.html (404 Not Found)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:28:29) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:36:41) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:36:44) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:41:27) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:41:28) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:41:48) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:41:49) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:41:50) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:43:02) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:43:03) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:43:11) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:43:22) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:43:23) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:44:41) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:46:20) [GET]
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'clinicshiftassignment.enrollments' doesn't exist: select * from enrollments order by id desc limit 1):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/enrollment.rb:3:in `get_latest'
+    /app/controllers/calendar_controller.rb:3:in `index'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:48:16) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 178ms (View: 114, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:49:10) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 152ms (View: 151, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 18:49:31) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 52ms (View: 51, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 18:49:38) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 92ms (View: 88, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 18:57:43) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 95ms (View: 94, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 20:18:31) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 129ms (View: 119, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 20:18:36) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 45ms (View: 44, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:18:41) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 31ms (View: 27, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:18:41) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:19:56) [POST]
+  Parameters: {"s3-23"=>"0", "s5-16"=>"0", "s3-9"=>"0", "s4-23"=>"1", "s3-24"=>"0", "s5-17"=>"0", "s4-24"=>"0", "s3-25"=>"0", "s5-18"=>"0", "s4-25"=>"0", "s3-26"=>"0", "s5-20"=>"0", "s5-19"=>"0", "s4-26"=>"0", "s6-10"=>"0", "s5-21"=>"1", "s4-27"=>"0", "s6-11"=>"0", "s3-27"=>"0", "email"=>"anne.c.siler@gmail.com", "s4-28"=>"0", "s6-12"=>"0", "s3-28"=>"0", "s5-22"=>"0", "s4-30"=>"1", "s4-29"=>"0", "s4-1"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s6-13"=>"0", "s3-30"=>"0", "s3-29"=>"0", "s5-23"=>"0", "s5-1"=>"0", "s4-2"=>"0", "s3-10"=>"1", "s6-14"=>"0", "s3-31"=>"1", "s5-24"=>"0", "s4-10"=>"0", "s6-1"=>"0", "s5-2"=>"0", "s4-3"=>"0", "s3-11"=>"0", "s6-15"=>"0", "s5-25"=>"0", "s4-11"=>"0", "s6-2"=>"0", "s5-3"=>"0", "s4-4"=>"0", "s3-12"=>"1", "s5-26"=>"1", "s4-12"=>"0", "name"=>"Anne1", "s6-3"=>"0", "s5-4"=>"0", "s4-5"=>"0", "s3-13"=>"0", "s5-27"=>"0", "s4-13"=>"0", "s6-4"=>"0", "s5-5"=>"0", "s4-6"=>"0", "s3-14"=>"0", "s3-1"=>"0", "s5-28"=>"1", "s4-14"=>"1", "s4-7"=>"0", "s4-15"=>"0", "s3-2"=>"0", "s3-15"=>"0", "s5-6"=>"0", "s5-29"=>"0", "s5-30"=>"0", "s6-5"=>"0", "s3-16"=>"0", "s4-8"=>"0", "s4-16"=>"0", "s3-3"=>"0", "s5-7"=>"0", "s5-10"=>"0", "s5-31"=>"0", "s6-6"=>"0", "s3-4"=>"0", "s3-17"=>"1", "s4-9"=>"0", "s4-17"=>"0", "s5-8"=>"0", "s5-11"=>"0", "s6-7"=>"0", "s3-5"=>"0", "s3-18"=>"0", "maxshifts"=>"2", "s4-18"=>"0", "s5-9"=>"0", "s5-12"=>"1", "s6-8"=>"0", "s3-6"=>"0", "s3-19"=>"1", "s3-20"=>"0", "s4-19"=>"0", "s4-20"=>"0", "s5-13"=>"0", "s6-9"=>"1", "s4-21"=>"1", "s3-7"=>"0", "s3-21"=>"0", "s5-14"=>"0", "s4-22"=>"0", "s3-8"=>"0", "s3-22"=>"0", "type"=>"MD", "s5-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 166ms (View: 3, DB: 103) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:21:47) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 93ms (View: 92, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:22:15) [POST]
+  Parameters: {"s3-23"=>"0", "s5-16"=>"0", "s3-9"=>"0", "s4-23"=>"0", "s3-24"=>"0", "s5-17"=>"0", "s4-24"=>"0", "s3-25"=>"0", "s5-18"=>"0", "s4-25"=>"0", "s3-26"=>"1", "s5-20"=>"0", "s5-19"=>"1", "s4-26"=>"0", "s6-10"=>"0", "s5-21"=>"0", "s4-27"=>"0", "s6-11"=>"0", "s3-27"=>"0", "email"=>"anne.c.siler2@gmail.com", "s4-28"=>"0", "s6-12"=>"0", "s3-28"=>"0", "s5-22"=>"0", "s4-30"=>"0", "s4-29"=>"0", "s4-1"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s6-13"=>"0", "s3-30"=>"0", "s3-29"=>"0", "s5-23"=>"0", "s5-1"=>"0", "s4-2"=>"0", "s3-10"=>"1", "s6-14"=>"0", "s3-31"=>"0", "s5-24"=>"0", "s4-10"=>"0", "s6-1"=>"0", "s5-2"=>"0", "s4-3"=>"0", "s3-11"=>"0", "s6-15"=>"0", "s5-25"=>"0", "s4-11"=>"0", "s6-2"=>"0", "s5-3"=>"0", "s4-4"=>"0", "s3-12"=>"0", "s5-26"=>"0", "s4-12"=>"0", "name"=>"Anne2", "s6-3"=>"0", "s5-4"=>"0", "s4-5"=>"0", "s3-13"=>"0", "s5-27"=>"0", "s4-13"=>"0", "s6-4"=>"0", "s5-5"=>"0", "s4-6"=>"0", "s3-14"=>"0", "s3-1"=>"0", "s5-28"=>"0", "s4-14"=>"0", "s4-7"=>"0", "s4-15"=>"0", "s3-2"=>"0", "s3-15"=>"0", "s5-6"=>"0", "s5-29"=>"0", "s5-30"=>"0", "s6-5"=>"0", "s3-16"=>"0", "s4-8"=>"0", "s4-16"=>"1", "s3-3"=>"0", "s5-7"=>"0", "s5-10"=>"0", "s5-31"=>"0", "s6-6"=>"0", "s3-4"=>"0", "s3-17"=>"0", "s4-9"=>"0", "s4-17"=>"0", "s5-8"=>"0", "s5-11"=>"0", "s6-7"=>"0", "s3-5"=>"0", "s3-18"=>"0", "maxshifts"=>"4", "s4-18"=>"0", "s5-9"=>"0", "s5-12"=>"0", "s6-8"=>"0", "s3-6"=>"0", "s3-19"=>"0", "s3-20"=>"0", "s4-19"=>"0", "s4-20"=>"0", "s5-13"=>"0", "s6-9"=>"0", "s4-21"=>"0", "s3-7"=>"0", "s3-21"=>"0", "s5-14"=>"1", "s4-22"=>"0", "s3-8"=>"0", "s3-22"=>"0", "type"=>"MD", "s5-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 119ms (View: 3, DB: 83) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:22:21) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:23:12) [POST]
+  Parameters: {"s3-23"=>"0", "s5-16"=>"0", "s3-9"=>"0", "s4-23"=>"0", "s3-24"=>"1", "s5-17"=>"0", "s4-24"=>"0", "s3-25"=>"0", "s5-18"=>"0", "s4-25"=>"0", "s3-26"=>"0", "s5-20"=>"0", "s5-19"=>"1", "s4-26"=>"0", "s6-10"=>"0", "s5-21"=>"0", "s4-27"=>"0", "s6-11"=>"0", "s3-27"=>"0", "email"=>"anne.c.siler3@gmail.com", "s4-28"=>"1", "s6-12"=>"0", "s3-28"=>"0", "s5-22"=>"0", "s4-30"=>"0", "s4-29"=>"0", "s4-1"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s6-13"=>"0", "s3-30"=>"0", "s3-29"=>"0", "s5-23"=>"0", "s5-1"=>"0", "s4-2"=>"0", "s3-10"=>"0", "s6-14"=>"0", "s3-31"=>"1", "s5-24"=>"0", "s4-10"=>"0", "s6-1"=>"0", "s5-2"=>"0", "s4-3"=>"0", "s3-11"=>"0", "s6-15"=>"0", "s5-25"=>"0", "s4-11"=>"0", "s6-2"=>"0", "s5-3"=>"0", "s4-4"=>"0", "s3-12"=>"0", "s5-26"=>"1", "s4-12"=>"0", "name"=>"Anne3", "s6-3"=>"0", "s5-4"=>"0", "s4-5"=>"0", "s3-13"=>"0", "s5-27"=>"0", "s4-13"=>"0", "s6-4"=>"0", "s5-5"=>"1", "s4-6"=>"0", "s3-14"=>"0", "s3-1"=>"0", "s5-28"=>"0", "s4-14"=>"1", "s4-7"=>"1", "s4-15"=>"0", "s3-2"=>"0", "s3-15"=>"0", "s5-6"=>"0", "s5-29"=>"0", "s5-30"=>"0", "s6-5"=>"0", "s3-16"=>"0", "s4-8"=>"0", "s4-16"=>"0", "s3-3"=>"0", "s5-7"=>"0", "s5-10"=>"0", "s5-31"=>"0", "s6-6"=>"0", "s3-4"=>"0", "s3-17"=>"1", "s4-9"=>"0", "s4-17"=>"0", "s5-8"=>"0", "s5-11"=>"0", "s6-7"=>"0", "s3-5"=>"0", "s3-18"=>"0", "maxshifts"=>"2", "s4-18"=>"0", "s5-9"=>"0", "s5-12"=>"1", "s6-8"=>"0", "s3-6"=>"0", "s3-19"=>"0", "s3-20"=>"0", "s4-19"=>"0", "s4-20"=>"0", "s5-13"=>"0", "s6-9"=>"0", "s4-21"=>"1", "s3-7"=>"0", "s3-21"=>"0", "s5-14"=>"0", "s4-22"=>"0", "s3-8"=>"0", "s3-22"=>"0", "type"=>"MD", "s5-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 153ms (View: 3, DB: 104) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:23:38) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:24:18) [POST]
+  Parameters: {"s3-23"=>"0", "s5-16"=>"0", "s3-9"=>"0", "s4-23"=>"1", "s3-24"=>"0", "s5-17"=>"0", "s4-24"=>"0", "s3-25"=>"0", "s5-18"=>"0", "s4-25"=>"0", "s3-26"=>"1", "s5-20"=>"0", "s5-19"=>"0", "s4-26"=>"0", "s6-10"=>"0", "s5-21"=>"1", "s4-27"=>"0", "s6-11"=>"1", "s3-27"=>"0", "email"=>"anne.siler4@gmail.com", "s4-28"=>"0", "s6-12"=>"0", "s3-28"=>"0", "s5-22"=>"0", "s4-30"=>"1", "s4-29"=>"0", "s4-1"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s6-13"=>"0", "s3-30"=>"0", "s3-29"=>"0", "s5-23"=>"0", "s5-1"=>"0", "s4-2"=>"1", "s3-10"=>"0", "s6-14"=>"0", "s3-31"=>"0", "s5-24"=>"0", "s4-10"=>"0", "s6-1"=>"0", "s5-2"=>"0", "s4-3"=>"0", "s3-11"=>"0", "s6-15"=>"0", "s5-25"=>"0", "s4-11"=>"0", "s6-2"=>"0", "s5-3"=>"0", "s4-4"=>"0", "s3-12"=>"1", "s5-26"=>"0", "s4-12"=>"0", "name"=>"anne4", "s6-3"=>"0", "s5-4"=>"0", "s4-5"=>"0", "s3-13"=>"0", "s5-27"=>"0", "s4-13"=>"0", "s6-4"=>"1", "s5-5"=>"0", "s4-6"=>"0", "s3-14"=>"0", "s3-1"=>"0", "s5-28"=>"1", "s4-14"=>"0", "s4-7"=>"0", "s4-15"=>"0", "s3-2"=>"0", "s3-15"=>"0", "s5-6"=>"0", "s5-29"=>"0", "s5-30"=>"0", "s6-5"=>"0", "s3-16"=>"0", "s4-8"=>"0", "s4-16"=>"1", "s3-3"=>"0", "s5-7"=>"1", "s5-10"=>"0", "s5-31"=>"0", "s6-6"=>"0", "s3-4"=>"0", "s3-17"=>"0", "s4-9"=>"1", "s4-17"=>"0", "s5-8"=>"0", "s5-11"=>"0", "s6-7"=>"0", "s3-5"=>"1", "s3-18"=>"0", "maxshifts"=>"10", "s4-18"=>"0", "s5-9"=>"0", "s5-12"=>"0", "s6-8"=>"0", "s3-6"=>"0", "s3-19"=>"1", "s3-20"=>"0", "s4-19"=>"0", "s4-20"=>"0", "s5-13"=>"0", "s6-9"=>"0", "s4-21"=>"0", "s3-7"=>"0", "s3-21"=>"0", "s5-14"=>"1", "s4-22"=>"0", "s3-8"=>"0", "s3-22"=>"0", "type"=>"MD", "s5-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 148ms (View: 3, DB: 89) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:24:52) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 351ms (View: 347, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 20:25:39) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 427ms (DB: 337) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:25:43) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 105ms (View: 104, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#open_req (for 71.237.177.116 at 2009-03-01 20:27:18) [POST]
+  Parameters: {"start_date"=>"03-01-09", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "end_date"=>"03-21-09"}
+
+
+ArgumentError (invalid date):
+    /usr/lib/ruby/1.8/date.rb:956:in `new_by_frags'
+    /usr/lib/ruby/1.8/date.rb:1000:in `parse'
+    /app/controllers/admin_controller.rb:21:in `open_req'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing AdminController#open_req (for 71.237.177.116 at 2009-03-01 20:27:51) [POST]
+  Parameters: {"start_date"=>"2009-03-01", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "end_date"=>"2009-03-21"}
+Redirected to actionindex
+Completed in 21ms (DB: 14) | 302 Found [http://swclinic.automatedg.com/admin/open_req]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:27:51) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 20:42:25) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 62ms (View: 53, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:42:30) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:43:21) [POST]
+  Parameters: {"name"=>"Anne 3", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"3", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 16ms (View: 3, DB: 3) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 20:43:25) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:43:29) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:43:47) [POST]
+  Parameters: {"name"=>"Anne 5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"", "s3-3"=>"0", "s3-15"=>"0"}
+Redirected to actionmake_request
+Completed in 1ms (DB: 0) | 302 Found [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:43:47) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:43:56) [POST]
+  Parameters: {"name"=>"anne5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"5", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 19ms (View: 3, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:44:01) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 20:44:17) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 214ms (DB: 152) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:44:18) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-01 20:44:26) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:44:26) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 20:45:15) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:45:19) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:45:30) [POST]
+  Parameters: {"name"=>"anne 3 ", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"3", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 17ms (View: 3, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:45:35) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 20:45:38) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 290ms (DB: 229) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:45:39) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-01 20:46:29) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:46:29) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 20:46:49) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:46:56) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:47:19) [POST]
+  Parameters: {"name"=>"Anne 5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"5", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 14ms (View: 3, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:47:29) [POST]
+  Parameters: {"name"=>"Anne 5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"5", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 15ms (View: 3, DB: 3) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:47:34) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:47:46) [POST]
+  Parameters: {"name"=>"Anne 3", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"3", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"", "s3-3"=>"1", "s3-15"=>"0"}
+Redirected to actionmake_request
+Completed in 1ms (DB: 0) | 302 Found [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:47:47) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 226ms (View: 225, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:48:02) [POST]
+  Parameters: {"name"=>"anne 5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"5", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 48ms (View: 3, DB: 36) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 20:48:13) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:48:21) [POST]
+  Parameters: {"name"=>"Anne 10", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"10", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 11ms (View: 3, DB: 2) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:48:31) [POST]
+  Parameters: {"name"=>"Anne 10", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"10", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 13ms (View: 3, DB: 2) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:48:59) [POST]
+  Parameters: {"name"=>"Anne 12", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"12", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 15ms (View: 3, DB: 3) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:49:09) [POST]
+  Parameters: {"name"=>"Anne 17", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"17", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 16ms (View: 3, DB: 4) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:49:21) [POST]
+  Parameters: {"name"=>"Anne 19", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"19", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 15ms (View: 2, DB: 3) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:49:37) [POST]
+  Parameters: {"name"=>"Anne Tues", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Tues", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 21ms (View: 2, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:49:45) [POST]
+  Parameters: {"name"=>"Anne Tues 2", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Tues 2", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 57ms (View: 2, DB: 41) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:49:56) [POST]
+  Parameters: {"name"=>"Anne Tues 3", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Tues 3", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 23ms (View: 2, DB: 8) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:50:08) [POST]
+  Parameters: {"name"=>"Anne Tues 4", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Tues 4", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 23ms (View: 2, DB: 7) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:50:20) [POST]
+  Parameters: {"name"=>"Anne Tues 5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Tues 5", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 21ms (View: 2, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:50:40) [POST]
+  Parameters: {"name"=>"Anne Thur  5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Thur 5", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 21ms (View: 2, DB: 6) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:50:49) [POST]
+  Parameters: {"name"=>"Anne Thur  4", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Thur 4", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 54ms (View: 2, DB: 38) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:50:57) [POST]
+  Parameters: {"name"=>"Anne Thur  3", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Thur 3", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 52ms (View: 2, DB: 36) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:51:08) [POST]
+  Parameters: {"name"=>"Anne Thur  2", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Thur 2", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 21ms (View: 3, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:51:15) [POST]
+  Parameters: {"name"=>"Anne Thur  1", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Thur 1", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 58ms (View: 2, DB: 42) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:51:43) [POST]
+  Parameters: {"name"=>"Anne All  1", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"All 1", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 207ms (View: 3, DB: 184) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:51:54) [POST]
+  Parameters: {"name"=>"Anne All  2", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"All 2", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 90ms (View: 3, DB: 68) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:52:41) [POST]
+  Parameters: {"name"=>"Anne All  3", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"All 3", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 31ms (View: 2, DB: 8) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:52:49) [POST]
+  Parameters: {"name"=>"Anne All  4", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"All 4", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 30ms (View: 2, DB: 8) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 20:52:58) [POST]
+  Parameters: {"name"=>"Anne All  5", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"1", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"1", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"All 5", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 91ms (View: 3, DB: 67) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:53:04) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 20:53:18) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 795ms (DB: 518) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:53:20) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-01 20:56:03) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 39ms (DB: 3) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 20:56:04) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 74ms (View: 69, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 20:56:06) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Unknown column 'enrollment_id' in 'where clause': select * from requestedshifts where request_id=9 and DAY(target_date)=1 and enrollment_id = 4 ):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/requestedshift.rb:3:in `get_request'
+    /app/controllers/admin_controller.rb:47:in `set_calendar'
+    /app/controllers/admin_controller.rb:41:in `each'
+    /app/controllers/admin_controller.rb:41:in `set_calendar'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 21:03:28) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+
+
+ActiveRecord::StatementInvalid (Mysql::Error: Unknown column 'enrollment_id' in 'where clause': select * from requestedshifts where request_id=9 and DAY(target_date)=1 and enrollment_id = 4 ):
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:309:in `execute'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:563:in `select'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /app/models/requestedshift.rb:3:in `get_request'
+    /app/controllers/admin_controller.rb:47:in `set_calendar'
+    /app/controllers/admin_controller.rb:41:in `each'
+    /app/controllers/admin_controller.rb:41:in `set_calendar'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:03:37) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 96ms (View: 56, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 21:03:42) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 735ms (DB: 544) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:03:43) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-01 21:03:54) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:03:54) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 21:03:57) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 702ms (DB: 524) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:03:58) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-01 21:04:50) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:04:50) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing ApplicationController#index (for 71.237.177.116 at 2009-03-01 21:04:57) [GET]
+
+
+ActionController::RoutingError (No route matches "/a" with {:method=>:get}):
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/404.html (404 Not Found)
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-01 21:05:01) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-01 21:05:08) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 21:05:36) [POST]
+  Parameters: {"name"=>"Anne 10", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Anne 10", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 17ms (View: 3, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 21:05:52) [POST]
+  Parameters: {"name"=>"Anne 17", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Anne 17", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 48ms (View: 3, DB: 4) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 21:06:07) [POST]
+  Parameters: {"name"=>"Anne 3 ", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"1", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Anne 17", "s3-3"=>"0", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 49ms (View: 34, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-01 21:06:20) [POST]
+  Parameters: {"name"=>"Anne 3 ", "s3-4"=>"0", "s3-16"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-6"=>"0", "s3-18"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f", "s3-8"=>"0", "s3-20"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-12"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-2"=>"0", "s3-14"=>"0", "email"=>"Anne 3", "s3-3"=>"1", "s3-15"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 17ms (View: 3, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:06:32) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 294ms (View: 293, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-01 21:06:36) [POST]
+  Parameters: {"authenticity_token"=>"4b0b1c73535913fafb3acc93b5471f53339ea80f"}
+Redirected to actionindex
+Completed in 718ms (DB: 513) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:06:37) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]

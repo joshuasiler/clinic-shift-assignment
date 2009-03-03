@@ -12,4 +12,9 @@ test:
 
 
 production:
+  adapter: mysql
+  database: clinic-shift-assignment
+  username: root
+  password: sillier2
+  host: localhost
 
