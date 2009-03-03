@@ -2164,3 +2164,207 @@ Processing AdminController#index (for 71.237.177.116 at 2009-03-01 21:06:37) [GE
 Rendering template within layouts/application
 Rendering admin/index
 Completed in 23ms (View: 22, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-02 18:52:20) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 66ms (View: 57, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 18:56:11) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 104ms (View: 63, DB: 2) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-02 18:56:12) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 18:56:13) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 18:56:14) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-03-02 18:56:22) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-03-02 18:56:25) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-02 18:56:36) [POST]
+  Parameters: {"name"=>"a", "s3-4"=>"0", "s3-16"=>"0", "s3-27"=>"0", "s3-5"=>"1", "s3-17"=>"1", "s3-28"=>"0", "s3-6"=>"0", "s3-18"=>"0", "s3-29"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "s3-30"=>"0", "authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8", "s3-8"=>"0", "s3-20"=>"0", "s3-31"=>"1", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "s4-1"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-22"=>"0", "s3-12"=>"1", "s3-23"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-24"=>"1", "s3-2"=>"0", "s3-14"=>"0", "s3-25"=>"0", "email"=>"a", "s3-3"=>"1", "s3-15"=>"0", "s3-26"=>"1"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 153ms (View: 3, DB: 115) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-02 18:56:42) [POST]
+  Parameters: {"name"=>"b", "s3-4"=>"0", "s3-16"=>"0", "s3-27"=>"0", "s3-5"=>"1", "s3-17"=>"1", "s3-28"=>"0", "s3-6"=>"0", "s3-18"=>"0", "s3-29"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "s3-30"=>"0", "authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8", "s3-8"=>"0", "s3-20"=>"0", "s3-31"=>"1", "s3-9"=>"0", "s3-10"=>"1", "s3-21"=>"0", "s4-1"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-22"=>"0", "s3-12"=>"1", "s3-23"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-24"=>"1", "s3-2"=>"0", "s3-14"=>"0", "s3-25"=>"0", "email"=>"b", "s3-3"=>"1", "s3-15"=>"0", "s3-26"=>"1"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 110ms (View: 3, DB: 77) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-02 18:56:48) [POST]
+  Parameters: {"name"=>"c", "s3-4"=>"0", "s3-16"=>"0", "s3-27"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-28"=>"0", "s3-6"=>"0", "s3-18"=>"0", "s3-29"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "s3-30"=>"0", "authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8", "s3-8"=>"0", "s3-20"=>"0", "s3-31"=>"1", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "s4-1"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-22"=>"0", "s3-12"=>"1", "s3-23"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-24"=>"1", "s3-2"=>"0", "s3-14"=>"0", "s3-25"=>"0", "email"=>"c", "s3-3"=>"0", "s3-15"=>"0", "s3-26"=>"1"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 119ms (View: 3, DB: 94) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-02 18:56:53) [POST]
+  Parameters: {"name"=>"d", "s3-4"=>"0", "s3-16"=>"0", "s3-27"=>"0", "s3-5"=>"1", "s3-17"=>"0", "s3-28"=>"0", "s3-6"=>"0", "s3-18"=>"0", "s3-29"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "s3-30"=>"0", "authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8", "s3-8"=>"0", "s3-20"=>"0", "s3-31"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "s4-1"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-22"=>"0", "s3-12"=>"1", "s3-23"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-24"=>"0", "s3-2"=>"0", "s3-14"=>"0", "s3-25"=>"0", "email"=>"d", "s3-3"=>"0", "s3-15"=>"0", "s3-26"=>"1"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 29ms (View: 3, DB: 7) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-02 18:56:58) [POST]
+  Parameters: {"name"=>"e", "s3-4"=>"0", "s3-16"=>"0", "s3-27"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-28"=>"0", "s3-6"=>"0", "s3-18"=>"0", "s3-29"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"1", "s3-30"=>"0", "authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8", "s3-8"=>"0", "s3-20"=>"0", "s3-31"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "s4-1"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-22"=>"0", "s3-12"=>"0", "s3-23"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-24"=>"0", "s3-2"=>"0", "s3-14"=>"0", "s3-25"=>"0", "email"=>"de", "s3-3"=>"0", "s3-15"=>"0", "s3-26"=>"1"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 21ms (View: 3, DB: 5) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 71.237.177.116 at 2009-03-02 18:57:03) [POST]
+  Parameters: {"name"=>"f", "s3-4"=>"0", "s3-16"=>"0", "s3-27"=>"0", "s3-5"=>"0", "s3-17"=>"0", "s3-28"=>"0", "s3-6"=>"0", "s3-18"=>"0", "s3-29"=>"0", "maxshifts"=>"", "s3-7"=>"0", "s3-19"=>"0", "s3-30"=>"0", "authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8", "s3-8"=>"0", "s3-20"=>"0", "s3-31"=>"0", "s3-9"=>"0", "s3-10"=>"0", "s3-21"=>"0", "s4-1"=>"0", "type"=>"MD", "s3-11"=>"0", "s3-22"=>"0", "s3-12"=>"0", "s3-23"=>"0", "s3-1"=>"0", "s3-13"=>"0", "s3-24"=>"0", "s3-2"=>"0", "s3-14"=>"0", "s3-25"=>"0", "email"=>"f", "s3-3"=>"0", "s3-15"=>"0", "s3-26"=>"1"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 50ms (View: 3, DB: 36) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-02 18:57:06) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 1300ms (DB: 742) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 18:57:07) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-02 19:00:46) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 15ms (DB: 4) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:00:46) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 88ms (View: 84, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-02 19:00:47) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 981ms (DB: 688) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:00:48) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-02 19:00:54) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:00:54) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 78ms (View: 77, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-02 19:00:56) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 908ms (DB: 597) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:00:57) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:04:02) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 82ms (View: 72, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-02 19:04:04) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 18ms (DB: 14) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:04:04) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-02 19:04:06) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 356ms (DB: 239) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:04:06) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:04:34) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 90ms (View: 81, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-03-02 19:04:36) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 6ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:04:36) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-03-02 19:04:37) [POST]
+  Parameters: {"authenticity_token"=>"8e02406f9d1ce6ed404e90ae243662ef0c108cb8"}
+Redirected to actionindex
+Completed in 1466ms (DB: 877) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-03-02 19:04:39) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]

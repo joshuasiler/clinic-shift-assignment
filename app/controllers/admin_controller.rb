@@ -90,7 +90,7 @@ class AdminController < ApplicationController
 	  
 	  end
 	  # unclaimed tues/thurs
-	  unclaimed_shifts += 1 if assigned == 0
+    unclaimed_shifts += 2-assigned + 2-alts
 	end
 	# move to the next day in range
 	datectrl = datectrl+1
