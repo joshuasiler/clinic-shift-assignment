@@ -49,7 +49,10 @@ class AdminController < ApplicationController
       dateend = enrollment.end_date+1
       thismonth = datectrl.month
       reqs.each do |req|
-	req.assigned_shifts = 0
+				req.assigned_shifts = 0
+				if req.shifts_desired.nil?
+					req.shifts_desired = 1000
+				end
       end
       while datectrl < dateend
 	
@@ -68,29 +71,28 @@ class AdminController < ApplicationController
 	      # check and see if this person is a match
 	      shift = Requestedshift.get_request(req.id,datectrl.day)
 	      unless shift[0].nil?
-		# is this person requesting any for this day    
-		req.shifts_desired -= 1
-		req.assigned_shifts += 1
-		if assigned < 2
-		  shift[0].assigned_flag = 1
-		  assigned += 1
-		else
-		  shift[0].assigned_flag = 2
-		  alts += 1
-		end
-		shift[0].save
-		if req.name=="limit1tuesdays"
-		  puts shift.inspect
-		end
-		if assigned == 2 && alts == 2
-		  break
-		end
+					# is this person requesting any for this day    
+					req.shifts_desired -= 1
+					req.assigned_shifts += 1
+					if assigned < ConfigValue.find_by_key('max_assigned').value.to_i
+		  			shift[0].assigned_flag = 1
+		  			assigned += 1
+					else
+		  			shift[0].assigned_flag = 2
+		  			alts += 1
+					end
+					shift[0].save
+					if req.name=="limit1tuesdays"
+		  			puts shift.inspect
+					end
+					if assigned == ConfigValue.find_by_key('max_assigned').value.to_i && alts == ConfigValue.find_by_key('max_alts').value.to_i
+		  			break
+					end
 	      end
 	    end
-	  
 	  end
 	  # unclaimed tues/thurs
-    unclaimed_shifts += 2-assigned + 2-alts
+    unclaimed_shifts += ConfigValue.find_by_key('max_assigned').value.to_i-assigned + ConfigValue.find_by_key('max_alts').value.to_i-alts
 	end
 	# move to the next day in range
 	datectrl = datectrl+1
