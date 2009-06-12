@@ -3924,3 +3924,1710 @@ Processing AdminController#index (for 71.237.177.116 at 2009-05-28 20:45:45) [GE
 Rendering template within layouts/application
 Rendering admin/index
 Completed in 15ms (View: 14, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing RequestorController#make_request (for 71.237.177.116 at 2009-05-28 20:49:19) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-05-28 20:49:26) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 137.53.95.21 at 2009-05-29 12:08:15) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 207ms (View: 17, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 137.53.95.21 at 2009-05-29 12:08:22) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing AdminController#index (for 137.53.95.21 at 2009-05-29 12:30:18) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 72ms (View: 18, DB: 46) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#open_req (for 137.53.95.21 at 2009-05-29 12:30:34) [POST]
+  Parameters: {"start_date"=>"2009-06-23", "authenticity_token"=>"e963d121fdac6af34f84193fc5ae564f7df66ea5", "end_date"=>"2009-09-30"}
+Redirected to actionindex
+Completed in 82ms (DB: 73) | 302 Found [http://swclinic.automatedg.com/admin/open_req]
+
+
+Processing AdminController#index (for 137.53.95.21 at 2009-05-29 12:30:34) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 220ms (View: 218, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 137.53.95.21 at 2009-05-29 12:31:23) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 63ms (View: 59, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.95.21 at 2009-05-29 12:31:28) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 150ms (View: 146, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.95.21 at 2009-05-29 12:31:51) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"Silera@ohsu.edu", "s9-15"=>"1", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"02234d008513c017ec6a1d6dc4940c49a3097119", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Anne Siler", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"1", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"1", "s8-30"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s8-10"=>"0", "s7-5"=>"0", "s8-4"=>"0", "s8-31"=>"0", "s7-20"=>"0", "s7-19"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"2", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"1", "s9-29"=>"1", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 393ms (View: 3, DB: 34) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 166.135.187.44 at 2009-05-29 12:55:28) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 139ms (View: 69, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 166.135.187.44 at 2009-05-29 12:56:07) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 63ms (View: 59, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 97.120.49.218 at 2009-05-30 11:07:56) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 132ms (View: 122, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 97.120.49.218 at 2009-05-30 11:11:47) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 210ms (View: 206, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 97.120.49.218 at 2009-05-30 11:13:21) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"khattara@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"297ca7238383baad93ab2511a443a227c3c5eab3", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Anuj Khattar", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s8-30"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s8-10"=>"0", "s7-5"=>"0", "s8-4"=>"0", "s8-31"=>"0", "s7-20"=>"0", "s7-19"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"3", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"1", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 311ms (View: 3, DB: 29) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#make_request (for 166.135.236.158 at 2009-05-30 11:17:29) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.241.254 at 2009-05-30 11:54:36) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"Azarsh@ohsu.edu", "s9-15"=>"1", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"38159060f85617d4894568be67f097282f763471", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Sharen Azar ", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"1", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"1", "s8-30"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s8-10"=>"0", "s7-5"=>"0", "s8-4"=>"1", "s8-31"=>"0", "s7-20"=>"0", "s7-19"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"1", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"1", "s7-7"=>"1", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"1", "s9-29"=>"1", "s9-30"=>"0"}
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/request_forgery_protection.rb:86:in `verify_authenticity_token'
+    /var/lib/gems/1.8/gems/activesupport-2.2.2/lib/active_support/callbacks.rb:178:in `send'
+    /var/lib/gems/1.8/gems/activesupport-2.2.2/lib/active_support/callbacks.rb:178:in `evaluate_method'
+    /var/lib/gems/1.8/gems/activesupport-2.2.2/lib/active_support/callbacks.rb:166:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:225:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:629:in `run_before_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:615:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/422.html (422 Unprocessable Entity)
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-05-30 18:04:57) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 115ms (View: 105, DB: 2) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-05-30 18:04:59) [POST]
+  Parameters: {"authenticity_token"=>"7798deb4b21c3ae950e8fe1826cdade1d6829e80"}
+Redirected to actionindex
+Completed in 680ms (DB: 198) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-05-30 18:05:00) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 40ms (View: 39, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing RequestorController#process_request (for 137.53.241.254 at 2009-06-01 08:29:41) [GET]
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+    /app/controllers/requestor_controller.rb:12:in `process_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing AdminController#index (for 137.53.95.177 at 2009-06-01 08:55:42) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 110ms (View: 100, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#open_req (for 137.53.95.177 at 2009-06-01 08:56:05) [POST]
+  Parameters: {"start_date"=>"2009-06-19", "authenticity_token"=>"89008afb3deb445e2b975d8a5335adaf05851a50", "end_date"=>"2009-09-31"}
+
+
+ArgumentError (invalid date):
+    /usr/lib/ruby/1.8/date.rb:956:in `new_by_frags'
+    /usr/lib/ruby/1.8/date.rb:1000:in `parse'
+    /app/controllers/admin_controller.rb:21:in `open_req'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing AdminController#index (for 137.53.95.177 at 2009-06-01 08:56:14) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 137.53.95.177 at 2009-06-01 08:56:16) [POST]
+  Parameters: {"authenticity_token"=>"89008afb3deb445e2b975d8a5335adaf05851a50"}
+Redirected to actionindex
+Completed in 6ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 137.53.95.177 at 2009-06-01 08:56:16) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 137.53.95.177 at 2009-06-01 08:56:27) [POST]
+  Parameters: {"authenticity_token"=>"89008afb3deb445e2b975d8a5335adaf05851a50"}
+Redirected to actionindex
+Completed in 741ms (DB: 469) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 137.53.95.177 at 2009-06-01 08:56:28) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 101ms (View: 99, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#open_req (for 137.53.95.177 at 2009-06-01 08:56:42) [POST]
+  Parameters: {"start_date"=>"2009-06-19", "authenticity_token"=>"89008afb3deb445e2b975d8a5335adaf05851a50", "end_date"=>"2009-09-30"}
+Redirected to actionindex
+Completed in 13ms (DB: 5) | 302 Found [http://swclinic.automatedg.com/admin/open_req]
+
+
+Processing AdminController#index (for 137.53.95.177 at 2009-06-01 08:56:42) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 99ms (View: 98, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 137.53.241.254 at 2009-06-01 09:00:57) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 93ms (View: 89, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.241.254 at 2009-06-01 09:01:05) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 68ms (View: 64, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.241.254 at 2009-06-01 09:02:21) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"Azarsh@ohsu.edu", "s9-15"=>"1", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"f8763e83d920838e8ad8cd8fccd4d5777f96a678", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Sharen Azar ", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"1", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"1", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"1", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"1", "s9-29"=>"1", "s9-30"=>"0"}
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/request_forgery_protection.rb:86:in `verify_authenticity_token'
+    /var/lib/gems/1.8/gems/activesupport-2.2.2/lib/active_support/callbacks.rb:178:in `send'
+    /var/lib/gems/1.8/gems/activesupport-2.2.2/lib/active_support/callbacks.rb:178:in `evaluate_method'
+    /var/lib/gems/1.8/gems/activesupport-2.2.2/lib/active_support/callbacks.rb:166:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:225:in `call'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:629:in `run_before_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:615:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/422.html (422 Unprocessable Entity)
+
+
+Processing CalendarController#index (for 137.53.249.130 at 2009-06-01 09:05:09) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 82ms (View: 81, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 67.170.141.134 at 2009-06-01 10:30:10) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 134ms (View: 65, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 67.170.141.134 at 2009-06-01 10:30:17) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 91ms (View: 87, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 67.170.141.134 at 2009-06-01 10:31:02) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"azarsh@ohsu.edu", "s9-15"=>"1", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"e8868d4b86fb4833b3b1d149af5f04dbbb5f030b", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"sharen azar", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"1", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"1", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"1", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"1", "s9-29"=>"1", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 268ms (View: 3, DB: 188) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.96.119 at 2009-06-01 12:10:13) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 305ms (View: 296, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.96.119 at 2009-06-01 12:10:34) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.96.119 at 2009-06-01 12:12:44) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"volpek@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"332b594dcc944bf2c09ef6ddbb590d0a2619bd8c", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Katherine Volpe", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"1", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"1", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"1", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"1", "maxshifts"=>"8", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 280ms (View: 3, DB: 93) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 72.90.123.74 at 2009-06-01 12:53:31) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 282ms (View: 272, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 72.90.123.74 at 2009-06-01 12:53:53) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 72.90.123.74 at 2009-06-01 12:55:27) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"beadnemi@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"4008574c98301a21ad3a2e1509c5f03834327b8c", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Michael Beadnell, MSIV", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"0", "maxshifts"=>"1", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 113ms (View: 3, DB: 74) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.22.163 at 2009-06-01 12:58:13) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 41ms (View: 40, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.22.163 at 2009-06-01 12:58:20) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 137.53.22.163 at 2009-06-01 12:59:20) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.22.163 at 2009-06-01 12:59:58) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"paisleyk@ohsu.edu", "s9-15"=>"1", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"7bac4282ac032c80d5ecdc8f6c9e7a79ef4ed25e", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Kira Paisley", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"1", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"1", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 128ms (View: 3, DB: 76) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.236.229.75 at 2009-06-01 13:14:04) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 151ms (View: 142, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.236.229.75 at 2009-06-01 13:14:17) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 71.236.229.75 at 2009-06-01 13:16:58) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.236.229.75 at 2009-06-01 13:17:34) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"pothierd@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"55545cb1685c35c6e12d2537cec1fcc7afa05c03", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Dawn Pothier", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"1", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"1", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 191ms (View: 3, DB: 123) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.193.193.248 at 2009-06-01 13:18:59) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 129ms (View: 128, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.193.193.248 at 2009-06-01 13:19:17) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.193.193.248 at 2009-06-01 13:20:34) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"burkeca@ohsu.edu ", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"9798a11db160e4285bf1d1eb7bbbe5c634369a1b", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Caitlin Burke", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"2", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 134ms (View: 3, DB: 103) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.241.4 at 2009-06-01 13:21:20) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 44ms (View: 43, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.241.4 at 2009-06-01 13:21:28) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.241.4 at 2009-06-01 13:23:32) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"nasserim@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"dde325b405f1a5dec3d77ee203965887731d60b3", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"morad nasseri", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 121ms (View: 3, DB: 81) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.241.4 at 2009-06-01 13:24:11) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 136ms (View: 135, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.241.4 at 2009-06-01 13:24:22) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.241.4 at 2009-06-01 13:25:05) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"nasserim@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"dde325b405f1a5dec3d77ee203965887731d60b3", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"morad nasseri", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 125ms (View: 3, DB: 31) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 67.189.17.24 at 2009-06-01 14:05:53) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 149ms (View: 80, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 67.189.17.24 at 2009-06-01 14:06:11) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 109ms (View: 105, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 67.189.17.24 at 2009-06-01 14:10:14) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 90ms (View: 89, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 67.189.17.24 at 2009-06-01 14:10:20) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 137.53.95.92 at 2009-06-01 14:39:15) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 134ms (View: 125, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.95.92 at 2009-06-01 14:39:42) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 31ms (View: 27, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 137.53.95.92 at 2009-06-01 14:40:37) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.95.92 at 2009-06-01 14:41:27) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"alliegruner@hotmail.com", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"79ccd9673d89658683734d8ba9ef63d605e0a247", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Allie Gruner", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 139ms (View: 3, DB: 85) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 63.229.136.11 at 2009-06-01 15:22:29) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 89ms (View: 80, DB: 61) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 63.229.136.11 at 2009-06-01 15:22:46) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 92ms (View: 88, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 216.104.15.134 at 2009-06-01 15:23:40) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 216.104.15.138 at 2009-06-01 15:23:47) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 63.229.136.11 at 2009-06-01 15:26:41) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"moorkath@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"561f10286e6c46631019ef275396880bd268abc3", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Kate Moore", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"1", "maxshifts"=>"2", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 118ms (View: 3, DB: 80) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing AdminController#index (for 67.170.141.134 at 2009-06-02 00:02:49) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 120ms (View: 80, DB: 2) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 66.178.161.10 at 2009-06-02 11:04:07) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 255ms (View: 246, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 66.178.161.10 at 2009-06-02 11:04:12) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 195ms (View: 93, DB: 2) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.241.254 at 2009-06-02 11:19:19) [GET]
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+    /app/controllers/requestor_controller.rb:12:in `process_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 137.53.249.129 at 2009-06-02 12:41:23) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 104ms (View: 95, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.249.129 at 2009-06-02 12:42:12) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 90ms (View: 86, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.249.129 at 2009-06-02 12:45:56) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"steelt@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"14e039bbe1418ebcca13c1540bf418e0a4850b1a", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Tessa Steel", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"1", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"1", "s7-7"=>"1", "maxshifts"=>"10", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD/MPH", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 241ms (View: 3, DB: 164) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.22.79 at 2009-06-02 13:25:13) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 121ms (View: 111, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.22.79 at 2009-06-02 13:25:20) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 137.53.22.79 at 2009-06-02 13:26:26) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 137.53.22.79 at 2009-06-02 13:27:15) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 137.53.22.79 at 2009-06-02 13:36:10) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 71ms (View: 61, DB: 1) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.22.79 at 2009-06-02 13:37:15) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"heineman@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"0627b018b299986700b26ae223a071600ce01e79", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"John Heineman", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"1", "maxshifts"=>"5", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD/MPH", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 131ms (View: 3, DB: 78) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 76.105.250.86 at 2009-06-02 18:34:13) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 121ms (View: 81, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 71.237.194.172 at 2009-06-02 19:17:40) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 113ms (View: 73, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.194.172 at 2009-06-02 19:17:57) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 90ms (View: 86, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 71.236.231.76 at 2009-06-02 20:39:16) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 44ms (View: 35, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.236.231.76 at 2009-06-02 20:39:32) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 81ms (View: 77, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.236.231.76 at 2009-06-02 20:41:05) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"javedani@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"6bccc9202406b8c83e04850217d8198c8fbf17d6", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Parisa Javedani", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 141ms (View: 3, DB: 73) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing RequestorController#process_request (for 67.170.141.134 at 2009-06-03 09:58:57) [GET]
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+    /app/controllers/requestor_controller.rb:12:in `process_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /var/lib/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /var/lib/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:163:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/utils.rb:161:in `safe_fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:135:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `fork'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:112:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `__send__'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /var/lib/gems/1.8/gems/passenger-2.0.6/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing CalendarController#index (for 137.53.96.110 at 2009-06-03 10:55:12) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 160ms (View: 150, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.96.110 at 2009-06-03 10:55:33) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 90ms (View: 86, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.96.110 at 2009-06-03 10:56:57) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"khattara@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"a16c26bce37acd777572922998946813b93a4b8d", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Anuj Khattar", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"4", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 130ms (View: 3, DB: 81) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 67.208.96.253 at 2009-06-03 12:25:36) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 285ms (View: 276, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 67.208.96.253 at 2009-06-03 12:26:02) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 67.208.96.253 at 2009-06-03 12:31:41) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 67.208.96.253 at 2009-06-03 12:32:03) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"luoht@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"76de9b9e839ab2b3162c6693800640bd0c7d4f6c", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Tammy Luoh", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"1", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 216ms (View: 3, DB: 109) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 69.64.236.150 at 2009-06-03 15:13:06) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 113ms (View: 104, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 69.64.236.150 at 2009-06-03 15:13:52) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 90ms (View: 86, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 69.30.70.82 at 2009-06-04 11:23:27) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 301ms (View: 292, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 67.189.16.239 at 2009-06-04 12:38:06) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 388ms (View: 379, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 67.189.16.239 at 2009-06-04 12:38:39) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 61ms (View: 57, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 67.189.16.239 at 2009-06-04 12:39:50) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"srikanto@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"931e7268822913dbb8d1f5344af0a4d883dbe51b", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Sandhya Srikantom", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"1", "maxshifts"=>"1", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 209ms (View: 3, DB: 21) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 209.162.203.56 at 2009-06-07 20:09:36) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 152ms (View: 143, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 209.162.203.56 at 2009-06-07 20:10:10) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 209.162.203.56 at 2009-06-07 20:18:21) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"carrj@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"e364f7ae58b3d2d56c9750245beb0af499b43fb1", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Julia Carr", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"1", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 104ms (View: 8, DB: 49) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.193.141.36 at 2009-06-08 14:26:49) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 184ms (View: 143, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.193.141.36 at 2009-06-08 14:27:23) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 24.22.9.141 at 2009-06-08 14:43:51) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 74ms (View: 65, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 24.22.9.141 at 2009-06-08 14:45:21) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 31ms (View: 27, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 24.22.9.141 at 2009-06-08 15:01:03) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"singhsa@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"8bfc537611c7e6872617cb45a6580f1c423c4b70", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Sarguni Singh", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"1", "maxshifts"=>"3", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 95ms (View: 8, DB: 44) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.237.194.172 at 2009-06-08 21:24:02) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 92ms (View: 52, DB: 32) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.194.172 at 2009-06-08 21:24:10) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 75ms (View: 71, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.194.172 at 2009-06-08 21:26:45) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"byerlyla@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"11662204381e8ca20189a8b7b2263796a1b54502", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Laura Byerly", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"1", "maxshifts"=>"3", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 139ms (View: 3, DB: 86) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 97.120.151.196 at 2009-06-09 00:03:33) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 146ms (View: 136, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 97.120.151.196 at 2009-06-09 00:04:04) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 90ms (View: 86, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 97.120.151.196 at 2009-06-09 00:19:05) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"trana@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"62c1b48a800543accd8560356c0a72ad31f95796", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Ashley Tran", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"1", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 135ms (View: 8, DB: 46) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.95.177 at 2009-06-09 10:04:16) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 194ms (View: 132, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.95.177 at 2009-06-09 10:07:32) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 91ms (View: 87, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 67.170.143.3 at 2009-06-09 13:36:40) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 44ms (View: 35, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 67.170.143.3 at 2009-06-09 13:42:08) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 71.236.230.57 at 2009-06-09 13:51:44) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 44ms (View: 35, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.236.230.57 at 2009-06-09 13:52:02) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 85ms (View: 81, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 24.22.93.208 at 2009-06-09 14:02:50) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 75ms (View: 65, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 24.22.93.208 at 2009-06-09 14:03:13) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 80ms (View: 76, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 24.22.93.208 at 2009-06-09 14:04:54) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"shanahl@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"3abbd54e058f2d29e348310f9800575b888afa7b", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Layla Shanah", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"1", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 102ms (View: 3, DB: 70) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.249.130 at 2009-06-09 14:10:31) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 184ms (View: 174, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.249.130 at 2009-06-09 14:11:59) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.249.130 at 2009-06-09 14:17:21) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"weimerem@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"45224902840850c6696825ba34bad55f90818395", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Emily Weimer", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"1", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 126ms (View: 3, DB: 84) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 66.194.72.10 at 2009-06-09 14:19:52) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 50ms (View: 49, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 66.194.72.10 at 2009-06-09 14:27:00) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 131ms (View: 62, DB: 1) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 66.194.72.10 at 2009-06-09 14:31:57) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"espanole@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"06d1f61f16c8fdce3afcbcb98146b6570e8798bb", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Eddie Espanol", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"2", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 113ms (View: 3, DB: 73) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.237.196.39 at 2009-06-09 16:19:52) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 187ms (View: 117, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.196.39 at 2009-06-09 16:20:20) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 88ms (View: 84, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.196.39 at 2009-06-09 16:22:57) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"giesbrea@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"55a7a817b36a7823d72719274be3e8630a03a5cd", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Annika", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"1", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"1", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"4", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD/MPH", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 130ms (View: 3, DB: 21) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.249.130 at 2009-06-09 16:48:49) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 126ms (View: 87, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.249.130 at 2009-06-09 16:49:02) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 84ms (View: 80, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.249.130 at 2009-06-09 16:53:23) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"jonesben@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"efcd3cc5f8ba501001c33fa33e9e4cc4dca07c61", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Benjamin Jones", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"0", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"3", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 121ms (View: 3, DB: 82) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 24.22.92.236 at 2009-06-09 17:01:20) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 66ms (View: 57, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 24.22.92.236 at 2009-06-09 17:01:48) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 74.0.131.2 at 2009-06-09 17:04:11) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 90ms (View: 89, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 74.0.131.2 at 2009-06-09 17:04:19) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 74.0.131.2 at 2009-06-09 17:04:46) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 105ms (View: 104, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 74.0.131.2 at 2009-06-09 17:04:53) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 71.193.141.8 at 2009-06-09 17:48:07) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 44ms (View: 35, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.193.141.8 at 2009-06-09 17:48:29) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 91ms (View: 87, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 71.193.198.233 at 2009-06-09 17:48:53) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 60ms (View: 59, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.193.198.233 at 2009-06-09 17:49:19) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.193.141.8 at 2009-06-09 17:54:48) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"1", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"1", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"schierc@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"cc4cf3e2d5036d0f575a5baa83ee5cb484569bac", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"1", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Caroline Schier", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"1", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"1", "s8-6"=>"1", "s7-7"=>"1", "maxshifts"=>"2", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"1", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 206ms (View: 3, DB: 139) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.236.173.163 at 2009-06-09 18:44:15) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 153ms (View: 144, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.236.173.163 at 2009-06-09 18:44:46) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 91ms (View: 87, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.236.173.163 at 2009-06-09 18:46:18) [POST]
+  Parameters: {"s9-10"=>"1", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"1", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"stickles@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"2222193f82f42575516a8e08316e1bf925016137", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"1", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Allison Stickles", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"1", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"1", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"1", "maxshifts"=>"2", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD/PHD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 110ms (View: 3, DB: 49) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.249.129 at 2009-06-09 18:52:10) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 163ms (View: 154, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.249.129 at 2009-06-09 18:52:50) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.249.129 at 2009-06-09 18:59:59) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"1", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"cardwelo@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"395460fbce29a458e2b954385bf4b16f3e5b26ea", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Lori Cardwell", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"1", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"1", "maxshifts"=>"2", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 141ms (View: 3, DB: 93) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.237.196.159 at 2009-06-09 19:03:17) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 107ms (View: 106, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 71.237.196.159 at 2009-06-09 19:03:39) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 71.237.196.159 at 2009-06-09 19:07:05) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"cedara@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"c8484870f46bea3cda8fcfe63ef986d625e52aef", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Anna Cedar", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"1", "s9-3"=>"0", "s8-11"=>"1", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"3", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"0", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 114ms (View: 3, DB: 26) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 71.237.193.206 at 2009-06-10 07:08:25) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 219ms (View: 149, DB: 61) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 137.53.241.254 at 2009-06-10 08:57:32) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 127ms (View: 118, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.241.254 at 2009-06-10 08:58:00) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 74.0.131.2 at 2009-06-10 12:52:17) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 44ms (View: 35, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 74.0.131.2 at 2009-06-10 12:52:21) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 90ms (View: 86, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 74.0.131.2 at 2009-06-10 13:02:12) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 75ms (View: 66, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 74.0.131.2 at 2009-06-10 13:03:16) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing CalendarController#index (for 74.0.131.2 at 2009-06-10 13:03:52) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 94ms (View: 93, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 74.0.131.2 at 2009-06-10 13:03:54) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 74.0.131.2 at 2009-06-10 13:04:34) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"cushmant@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"9f731dc255f5c97a5c3ca61402b20f24bc216446", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Tera Cushman", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"0", "s7-7"=>"0", "maxshifts"=>"", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"1", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 114ms (View: 3, DB: 72) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.159.165 at 2009-06-10 14:09:06) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 154ms (View: 145, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 137.53.159.165 at 2009-06-10 14:09:32) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#make_request (for 137.53.159.165 at 2009-06-10 14:13:15) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 137.53.159.165 at 2009-06-10 14:18:49) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"1", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"geracitr@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"2e2a87c173ad091d8dfc471345eb55ad0fc8faeb", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"0", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Travis Geraci ", "s9-21"=>"0", "s7-2"=>"1", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"0", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"0", "maxshifts"=>"6", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"1", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 140ms (View: 3, DB: 96) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 98.246.119.221 at 2009-06-10 15:42:27) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 209ms (View: 140, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing RequestorController#make_request (for 98.246.119.221 at 2009-06-10 15:43:34) [GET]
+Rendering template within layouts/application
+Rendering requestor/make_request
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://swclinic.automatedg.com/requestor/make_request]
+
+
+Processing RequestorController#process_request (for 98.246.119.221 at 2009-06-10 16:07:04) [POST]
+  Parameters: {"s9-10"=>"0", "s9-9"=>"0", "s6-27"=>"0", "s8-16"=>"0", "s7-26"=>"0", "s6-28"=>"0", "s8-17"=>"0", "s7-27"=>"0", "s9-11"=>"0", "s6-30"=>"0", "s6-29"=>"0", "s8-18"=>"0", "s7-28"=>"0", "s9-12"=>"0", "s8-20"=>"0", "s8-19"=>"0", "s7-30"=>"0", "s7-29"=>"0", "s9-13"=>"0", "s7-10"=>"0", "s7-31"=>"0", "s9-14"=>"0", "s8-21"=>"0", "email"=>"mcclainm@ohsu.edu", "s9-15"=>"0", "s8-22"=>"0", "s7-11"=>"0", "s9-16"=>"0", "authenticity_token"=>"28d6326774898cc5e2ef20c83f0ac15e84541ed5", "s8-23"=>"0", "s7-12"=>"0", "s9-17"=>"0", "s8-24"=>"0", "s7-13"=>"0", "s9-18"=>"0", "s8-25"=>"0", "s7-14"=>"1", "s9-20"=>"0", "s9-19"=>"0", "s7-1"=>"0", "s8-26"=>"0", "s7-15"=>"0", "name"=>"Molly McClain", "s9-21"=>"0", "s7-2"=>"0", "s8-1"=>"0", "s8-27"=>"0", "s7-16"=>"1", "s9-1"=>"0", "s7-3"=>"0", "s8-2"=>"0", "s8-28"=>"0", "s7-17"=>"0", "s9-22"=>"0", "s6-20"=>"0", "s8-30"=>"0", "s6-19"=>"0", "s8-29"=>"0", "s7-18"=>"0", "s9-23"=>"0", "s9-2"=>"0", "s7-4"=>"0", "s8-3"=>"0", "s6-21"=>"0", "s8-10"=>"0", "s8-4"=>"1", "s7-5"=>"0", "s7-19"=>"0", "s7-20"=>"0", "s8-31"=>"0", "s9-24"=>"0", "s9-3"=>"0", "s8-11"=>"0", "s6-22"=>"0", "s8-5"=>"0", "s7-6"=>"0", "s7-21"=>"0", "s9-4"=>"0", "s9-25"=>"0", "s7-22"=>"0", "s8-12"=>"0", "s6-23"=>"0", "s8-6"=>"1", "s7-7"=>"1", "maxshifts"=>"4", "s9-5"=>"0", "s9-26"=>"0", "s7-23"=>"0", "s8-13"=>"0", "s6-24"=>"0", "s8-7"=>"0", "s7-8"=>"0", "s9-6"=>"0", "s9-27"=>"0", "s7-24"=>"0", "s8-14"=>"0", "s6-25"=>"0", "s8-8"=>"0", "s7-9"=>"1", "s9-7"=>"0", "s9-28"=>"0", "s7-25"=>"0", "s8-15"=>"0", "s6-26"=>"0", "s8-9"=>"0", "type"=>"MD/MPH", "s9-8"=>"0", "s9-29"=>"0", "s9-30"=>"0"}
+Rendering template within layouts/application
+Rendering requestor/process_request
+Completed in 155ms (View: 8, DB: 97) | 200 OK [http://swclinic.automatedg.com/requestor/process_request]
+
+
+Processing CalendarController#index (for 137.53.241.4 at 2009-06-10 17:36:05) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 209ms (View: 149, DB: 51) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 71.237.177.116 at 2009-06-10 20:33:31) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 104ms (View: 65, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-06-10 20:34:00) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 95ms (View: 90, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-06-10 20:36:42) [POST]
+  Parameters: {"authenticity_token"=>"e332c74e3fbf101e3bd9e48f5a1af95f392ec267"}
+Redirected to actionindex
+Completed in 49794ms (DB: 29880) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-06-10 20:36:45) [POST]
+  Parameters: {"authenticity_token"=>"e332c74e3fbf101e3bd9e48f5a1af95f392ec267"}
+Redirected to actionindex
+Completed in 49901ms (DB: 29496) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-06-10 20:37:35) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 153ms (View: 152, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 71.237.177.116 at 2009-06-10 20:38:28) [POST]
+  Parameters: {"authenticity_token"=>"e332c74e3fbf101e3bd9e48f5a1af95f392ec267"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-06-10 20:38:28) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 49ms (View: 48, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 71.237.177.116 at 2009-06-10 20:38:42) [POST]
+  Parameters: {"authenticity_token"=>"e332c74e3fbf101e3bd9e48f5a1af95f392ec267"}
+Redirected to actionindex
+Completed in 26139ms (DB: 16357) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 71.237.177.116 at 2009-06-10 20:39:08) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 165ms (View: 164, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing CalendarController#index (for 137.53.241.4 at 2009-06-11 16:25:33) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 187ms (View: 148, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 137.53.241.4 at 2009-06-11 16:25:37) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 120ms (View: 119, DB: 0) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing CalendarController#index (for 66.178.161.10 at 2009-06-12 08:13:45) [GET]
+Rendering template within layouts/application
+Rendering calendar/index
+Completed in 127ms (View: 118, DB: 1) | 200 OK [http://swclinic.automatedg.com/]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:13:55) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 53ms (View: 49, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 66.178.161.10 at 2009-06-12 08:16:30) [POST]
+  Parameters: {"authenticity_token"=>"9d53ee4d0cb00d1612da200346a099eeedaa7a0c"}
+Redirected to actionindex
+Completed in 6ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:16:30) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 110ms (View: 109, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:16:36) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 115ms (View: 114, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 66.178.161.10 at 2009-06-12 08:16:38) [POST]
+  Parameters: {"authenticity_token"=>"9d53ee4d0cb00d1612da200346a099eeedaa7a0c"}
+Redirected to actionindex
+Completed in 25994ms (DB: 16593) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:17:04) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 372ms (View: 371, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 66.178.161.10 at 2009-06-12 08:17:08) [POST]
+  Parameters: {"authenticity_token"=>"9d53ee4d0cb00d1612da200346a099eeedaa7a0c"}
+Redirected to actionindex
+Completed in 5ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:17:08) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 110ms (View: 109, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:53:14) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 223ms (View: 213, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:53:19) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 194ms (View: 184, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 66.178.161.10 at 2009-06-12 08:53:21) [POST]
+  Parameters: {"authenticity_token"=>"9d53ee4d0cb00d1612da200346a099eeedaa7a0c"}
+Redirected to actionindex
+Completed in 6ms (DB: 2) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:53:22) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 97ms (View: 95, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 66.178.161.10 at 2009-06-12 08:53:24) [POST]
+  Parameters: {"authenticity_token"=>"9d53ee4d0cb00d1612da200346a099eeedaa7a0c"}
+Redirected to actionindex
+Completed in 6634ms (DB: 3302) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:53:30) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 137ms (View: 136, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#reopen (for 66.178.161.10 at 2009-06-12 08:54:18) [POST]
+  Parameters: {"authenticity_token"=>"9d53ee4d0cb00d1612da200346a099eeedaa7a0c"}
+Redirected to actionindex
+Completed in 75ms (DB: 3) | 302 Found [http://swclinic.automatedg.com/admin/reopen]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:54:18) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 154ms (View: 149, DB: 1) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:54:41) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 195ms (View: 183, DB: 3) | 200 OK [http://swclinic.automatedg.com/admin]
+
+
+Processing AdminController#set_calendar (for 66.178.161.10 at 2009-06-12 08:54:43) [POST]
+  Parameters: {"authenticity_token"=>"9d53ee4d0cb00d1612da200346a099eeedaa7a0c"}
+Redirected to actionindex
+Completed in 6648ms (DB: 3184) | 302 Found [http://swclinic.automatedg.com/admin/set_calendar]
+
+
+Processing AdminController#index (for 66.178.161.10 at 2009-06-12 08:54:50) [GET]
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 123ms (View: 122, DB: 0) | 200 OK [http://swclinic.automatedg.com/admin]
