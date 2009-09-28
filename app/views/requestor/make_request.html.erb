@@ -1,5 +1,5 @@
 <h1>Clinic Shift Request</h1>
-<% if ConfigValue.find_by_key('req_open').value == "1" %>
+<% if EntityStore['req_open'] == "1" %>
 
 <% if !flash[:message].nil? %><div class="error"><%= flash[:message] %></div><% end%>
 Request for: <%= @enrollment.start_date %> to <%= @enrollment.end_date %> <BR /><BR />
@@ -47,4 +47,4 @@ Request for: <%= @enrollment.start_date %> to <%= @enrollment.end_date %> <BR />
 <h2>Enrollment is currently closed.</h2>
 <% end %>
 
-Please contact <a href="mailto:<%= ConfigValue.find_by_key('admin_email').value %>"><%= ConfigValue.find_by_key('admin_email').value %></a> for more information.
+Please contact <a href="mailto:<%= EntityStore['admin_email'] %>"><%= EntityStore['admin_email'] %></a> for more information.

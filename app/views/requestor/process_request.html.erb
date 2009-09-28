@@ -1,3 +1,3 @@
 <h1>Clinic Shift Request</h1>
 <h2>Thank you. We will email you your shift assignments after enrollment is complete.</h2>
-Please contact <a href="mailto:<%= ConfigValue.find_by_key('admin_email').value%>"><%= ConfigValue.find_by_key('admin_email').value%></a> if you have any questions. Please close your browser.
+Please contact <a href="mailto:<%= EntityStore['admin_email'] %>"><%= EntityStore['admin_email'] %></a> if you have any questions. Please close your browser.

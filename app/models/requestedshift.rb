@@ -1,4 +1,9 @@
 class Requestedshift < ActiveRecord::Base
+  belongs_to :request
+  
+  def self.get_unassigned_requests(enrollmentid,day)
+    Requestedshift.find_by_sql(["select a.* from requestedshifts a inner join requests b on a.request_id = b.id  where b.enrollment_id = ? and target_date=? and assigned_flag=0",enrollmentid,day])
+  end
   
   def self.get_request(reqid,day)
     Requestedshift.find_by_sql(["select * from requestedshifts where request_id=? and target_date=? and assigned_flag=0",reqid,day])

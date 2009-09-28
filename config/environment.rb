@@ -74,3 +74,6 @@ Rails::Initializer.run do |config|
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 end
 
+require 'entity_storage'
+DEFAULT_KEYS = { "max_assigned" => 4, "max_alts" => 2, "max_per" => 3, "admin_email" => 'silera@ohsu.edu' }
+EntityStore = EntityStorage::Storage.new(DEFAULT_KEYS) 

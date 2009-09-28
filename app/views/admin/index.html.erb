@@ -1,10 +1,8 @@
-<% ConfigValue.find(:all).each do |confval| %>
-
-<%= confval.key %> <%= confval.value %><BR />
- <% end %>
+Max assigned: <%= EntityStore["max_assigned"] %><BR/>
+Max alts: <%= EntityStore["max_alts"] %><BR />
 <%= @reqs%> request forms submitted for current month.
 <BR /><BR />
-<% if ConfigValue.find_by_key('req_open').value == "1" %>
+<% if EntityStore['req_open'] == 1 %>
 <form action="/admin/set_calendar" method="post">
   <%= token_tag %>
   Process all <%= @enrollment.start_date %> to <%= @enrollment.end_date %> requests, generate calendar and close enrollment: 
