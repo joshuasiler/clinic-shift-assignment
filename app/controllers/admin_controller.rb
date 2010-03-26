@@ -1,3 +1,4 @@
+
 require 'assign.rb'
 class AdminController < ApplicationController
   def index
@@ -11,7 +12,7 @@ class AdminController < ApplicationController
   
   def reopen
     EntityStore['req_open'] = 1
-  redirect_to :action => :index
+  	redirect_to :action => :index
   end
   
   def open_req
@@ -20,7 +21,7 @@ class AdminController < ApplicationController
     en.end_date = Date.parse(params['end_date'])
     unless (en.start_date.nil? or en.end_date.nil?)
       en.save
-       EntityStore['req_open'] = 1
+      EntityStore['req_open'] = 1
     end
     redirect_to :action => :index
   end
@@ -32,5 +33,9 @@ class AdminController < ApplicationController
      redirect_to :action => :index
   end
   
+	def close
+		EntityStore['req_open'] = 0
+     redirect_to :action => :index
+	end
   
 end

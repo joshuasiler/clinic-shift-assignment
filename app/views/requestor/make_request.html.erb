@@ -1,5 +1,5 @@
 <h1>Clinic Shift Request</h1>
-<% if EntityStore['req_open'] == "1" %>
+<% if EntityStore['req_open'] == 1 %>
 
 <% if !flash[:message].nil? %><div class="error"><%= flash[:message] %></div><% end%>
 Request for: <%= @enrollment.start_date %> to <%= @enrollment.end_date %> <BR /><BR />

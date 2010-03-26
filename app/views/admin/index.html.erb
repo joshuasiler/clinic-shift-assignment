@@ -6,19 +6,19 @@ Max alts: <%= EntityStore["max_alts"] %><BR />
 <form action="/admin/set_calendar" method="post">
   <%= token_tag %>
   Process all <%= @enrollment.start_date %> to <%= @enrollment.end_date %> requests, generate calendar and close enrollment: 
-<BR/><input type="submit" value="generate"> (this may take a minute or two)
+<BR/><input type="submit" value="generate" /> (this may take a minute or two)
  </form>
 <% else %>
 <form action="/admin/reopen" method="post">
   <%= token_tag %>
-  Reset <%= @enrollment.start_date %> to <%= @enrollment.end_date %> enrollment: <input type="submit" value="Reopen">
+  Reset <%= @enrollment.start_date %> to <%= @enrollment.end_date %> enrollment: <input type="submit" value="Reopen" />
   <BR />(danger, this may reset the calendar if you regenerate later)
  </form><BR /><BR />
 <form action="/admin/open_req" method="post">
   <%= token_tag %>
-  Start Date: <input type="textbox" name="start_date">(YYYY-MM-DD)<BR />
-  End Date: <input type="textbox" name="end_date">(YYYY-MM-DD)<BR />
-  This will open enrollment for the new period and close the old calendar: <input type="submit" value="Start Enrollment">
+  Start Date: <input type="textbox" name="start_date" />(YYYY-MM-DD)<BR />
+  End Date: <input type="textbox" name="end_date" />(YYYY-MM-DD)<BR />
+  This will open enrollment for the new period and close the old calendar: <input type="submit" value="Start Enrollment" />
  </form>
 <% end %>
 <%= render :partial => "calendar/assigned" %>
