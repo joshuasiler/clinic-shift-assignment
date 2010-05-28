@@ -1,0 +1,4 @@
+use clinic-shift-assignment;
+
+select a.name, a.email, b.target_date from requests a inner join requestedshifts b on a.id = b.request_id where target_date > '2010-06-21' order by b.target_date;
+
